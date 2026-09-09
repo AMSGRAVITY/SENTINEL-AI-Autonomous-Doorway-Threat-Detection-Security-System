@@ -2,6 +2,7 @@
 
 > **Real-Time Computer Vision, Multi-Factor Threat Analytics & Command Center Dashboard**  
 > Developed for Residential & Institutional Doorway Surveillance.
+> Removed **Weights** and **Datasets** because they are huge and will onstruct from uploading into github.
 
 ---
 
@@ -136,11 +137,8 @@ threat_detection/
 - **Python**: `3.10` or higher
 - **GPU Acceleration**: NVIDIA GPU with CUDA recommended for optimal 30+ FPS performance.
 
-### 2. Clone Repository & Install Dependencies
+### 2. Install Dependencies
 ```bash
-git clone https://github.com/your-username/threat_detection.git
-cd threat_detection
-
 # Install PyTorch with CUDA support first, then install remaining requirements:
 pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu121
 pip install ultralytics opencv-python numpy python-pptx facenet-pytorch
@@ -177,13 +175,8 @@ python threat_debug.py
 ## 👥 Authors & Academic Credentials
 
 - **Maneesh**
-- **Lakshmi Narasimham**
 
 **Department**: Department of Mathematics and Computing  
 **Institution**: Indian Institute of Technology Patna (IIT Patna)  
 
 ---
-
-## 📜 License
-
-Distributed under the MIT License. See `LICENSE` for more details.
