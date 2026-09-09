@@ -177,13 +177,8 @@ python threat_debug.py
 ## 👥 Authors & Academic Credentials
 
 - **Maneesh**
-- **Lakshmi Narasimham**
 
 **Department**: Department of Mathematics and Computing  
 **Institution**: Indian Institute of Technology Patna (IIT Patna)  
 
 ---
-
-## 📜 License
-
-Distributed under the MIT License. See `LICENSE` for more details.
