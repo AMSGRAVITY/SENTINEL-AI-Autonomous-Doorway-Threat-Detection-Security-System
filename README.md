@@ -1,0 +1,2 @@
+# SENTINEL-AI-Autonomous-Doorway-Threat-Detection-Security-System
+**SENTINEL-AI** is an autonomous, multi-factor computer vision surveillance and threat analytics engine designed for doorway monitoring. Unlike passive CCTV cameras that merely record footage post-incident, SENTINEL-AI actively analyzes live 1080p video streams to detect, track, classify, and react to physical security threats in real-time.
