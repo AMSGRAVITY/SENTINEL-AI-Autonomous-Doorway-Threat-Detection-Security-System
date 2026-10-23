@@ -1,5 +1,5 @@
 import time, cv2
-from threat_detection.pipeline.pipeline_detection import DetectionPipeline
+from threat_detection.pipeline.pipeline_thread import ThreadedPipeline
 from threat_detection.ui.ui_manager import UIManager
 from threat_detection.media.recording.recorder import ThreadedRecorder
 from threat_detection.media.snapshot.snapshot import SnapshotSaver
@@ -27,7 +27,7 @@ def main():
     # 2. Subsystem Initialization
     ui = UIManager()
     print("[DEBUG] UI done")
-    pipeline = DetectionPipeline()
+    pipeline = ThreadedPipeline()
     print("[DEBUG] pipeline Done")
     snapshot_saver = SnapshotSaver()
     print("[DEBUG] snapshot done")
